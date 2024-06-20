@@ -4,6 +4,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.NavController
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.NavigationUI
 import com.dnegu.pruebatecnica.R
 import com.dnegu.pruebatecnica.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
@@ -16,8 +19,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        setSupportActionBar(binding.toolbar)
         enableEdgeToEdge()
+
+        val navHostFragment = supportFragmentManager
+            .findFragmentById(R.id.nav_host_fragment_container) as NavHostFragment
+        val navController: NavController = navHostFragment.navController
+
+        NavigationUI.setupWithNavController(binding.bottomNavigation, navController)
     }
 
     fun showLoading(isShowing: Boolean, text: String = getString(R.string.main_activity_loading)){

@@ -28,8 +28,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialTextView"
-        app:placeholderDrawable="@drawable/ic_users"
-        tools:src="@drawable/ic_users" />
+        app:placeholderDrawable="@drawable/ic_user"
+        tools:src="@drawable/ic_user" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/materialTextView2"
@@ -53,8 +53,8 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialTextView2"
-        app:placeholderDrawable="@drawable/ic_users"
-        tools:src="@drawable/ic_users" />
+        app:placeholderDrawable="@drawable/ic_user"
+        tools:src="@drawable/ic_user" />
 
     <com.dnegu.pruebatecnica.views.CircularImageView
         android:id="@+id/circularImageView4"
@@ -67,8 +67,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/materialTextView2"
-        app:placeholderDrawable="@drawable/ic_users"
-        tools:src="@drawable/ic_users" />
+        app:placeholderDrawable="@drawable/ic_user"
+        tools:src="@drawable/ic_user" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/materialTextView3"
@@ -92,8 +92,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialTextView3"
-        app:placeholderDrawable="@drawable/ic_users"
-        tools:src="@drawable/ic_users" />
+        app:placeholderDrawable="@drawable/ic_user"
+        tools:src="@drawable/ic_user" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"

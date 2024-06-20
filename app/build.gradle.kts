@@ -43,6 +43,7 @@ dependencies {
     implementation(libs.rxandroid)
     implementation(libs.hilt.android)
     implementation(libs.androidx.navigation.fragment)
+    implementation(libs.androidx.navigation.ui.ktx)
     annotationProcessor(libs.hilt.android.compiler)
     annotationProcessor(libs.androidx.hilt.compiler)
     implementation(libs.androidx.core.ktx)

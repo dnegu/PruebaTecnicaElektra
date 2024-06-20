@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/imageCircularFragment"
+        android:icon="@drawable/ic_user"
+        android:title="Image Circular" />
+    <item
+        android:id="@+id/pokeApiFragment"
+        android:icon="@drawable/ic_pokemon"
+        android:title="Poke Api" />
+</menu>
